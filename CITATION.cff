@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use Academic AI Skills, please cite this repository."
-title: "Academic AI Skills"
+message: "If you use Easy Research, please cite this repository."
+title: "Easy Research"
 version: "0.1.0"
 date-released: "2026-05-07"
 authors:
@@ -8,4 +8,4 @@ authors:
     given-names: "Tinglei"
 repository-code: "https://github.com/liutinglei/Easy-Reasearch"
 license: "MIT"
-abstract: "An original collection of AI-agent skills for academic research workflows, including reviewer response, manuscript audit, systematic review, journal submission checks, and workflow orchestration."
+abstract: "An original collection of AI-agent skills for academic research writing workflows, including reviewer response, manuscript audit, systematic review, journal submission checks, and workflow orchestration."

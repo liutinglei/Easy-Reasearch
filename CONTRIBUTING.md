@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping improve Academic AI Skills. Contributions should keep the project original, transparent, and useful for academic workflows.
+Thank you for helping improve Easy Research. Contributions should keep the project original, transparent, and useful for academic workflows.
 
 ## Ground Rules
 

@@ -1,6 +1,6 @@
 # Reference Audit
 
-This document records public sources reviewed while designing this project. The purpose is transparency: public repositories may be inspected for structural patterns, but public files in this repository are written from scratch.
+This document records public sources reviewed while designing Easy Research. The purpose is transparency: public repositories may be inspected for structural patterns, but public files in this repository are written from scratch.
 
 ## Reference Sources
 
@@ -20,7 +20,7 @@ The `nature-skills` repository was inspected only for high-level organization:
 - self-contained skill resources
 - optional `references/`, `scripts/`, `assets/`, or evaluation-oriented folders
 
-No content, prose, tables, examples, scripts, templates, images, or README text from that repository is copied here.
+No content, prose, tables, examples, scripts, templates, images, or README text from that repository is copied here. Easy Research is a broader general-purpose research writing workflow suite, not a fork or redistribution of `nature-skills`.
 
 ## Design Rule
 

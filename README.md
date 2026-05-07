@@ -1,4 +1,4 @@
-# Academic AI Skills
+# Easy Research
 
 [![Tests](https://github.com/liutinglei/Easy-Reasearch/actions/workflows/test.yml/badge.svg)](https://github.com/liutinglei/Easy-Reasearch/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -6,7 +6,9 @@
 
 Original AI-agent skills for academic researchers, PhD students, journal authors, and reviewers.
 
-This repository focuses on systematic literature reviews, reviewer response letters, manuscript revision audits, journal submission checks, citation integrity, and research workflow automation. It is designed for Claude, Codex, and other agentic coding environments that can load modular `SKILL.md` instructions.
+Easy Research is a general-purpose research writing workflow suite. It covers systematic literature reviews, reviewer response letters, manuscript revision audits, journal submission checks, citation integrity, and multi-step research workflow orchestration. The scope is broader than narrowly focused academic writing skill packs: it is designed to help agents plan, route, audit, and assemble full research writing workflows while preserving human verification.
+
+The repository is designed for Claude, Codex, and other agentic coding environments that can load modular `SKILL.md` instructions.
 
 ## Skill Index
 
@@ -14,7 +16,7 @@ This repository focuses on systematic literature reviews, reviewer response lett
 | Skill | Purpose |
 |---|---|
 | `academic-workflow-orchestrator` | End-to-end academic workflow planning skill for revise-and-resubmit, thesis correction, systematic review, journal submission, and pre-submission audit workflows, producing ordered task plans, input requirements, output packages, quality gates, and human-verification checkpoints. |
-| `findskill` | Meta-skill for selecting the correct academic-ai-skills module based on user intent, missing information, workflow type, and routing uncertainty, producing a concise routing decision without fabricating unavailable file contents. |
+| `findskill` | Meta-skill for selecting the correct Easy Research module based on user intent, missing information, workflow type, and routing uncertainty, producing a concise routing decision without fabricating unavailable file contents. |
 | `journal-submission-checker` | Prepare and audit journal submission packages, including cover letters, ethics and consent statements, data availability, conflicts of interest, author contributions, AI-use disclosure, scope fit, and file checklists. |
 | `manuscript-audit` | Audit academic manuscripts for consistency across abstract, methods, results, discussion, conclusion, tables, hypotheses, response letters, and claims, producing claim-evidence matrices and verification notes. |
 | `reviewer-response` | Prepare, audit, and revise academic reviewer response letters, editor cover letters, thesis examiner responses, response tables, and revision maps with traceable manuscript-location claims and overclaiming checks. |
@@ -36,7 +38,7 @@ Core rules:
 ## Folder Structure
 
 ```text
-academic-ai-skills/
+Easy Research/
 +-- README.md
 +-- LICENSE
 +-- CHANGELOG.md
@@ -127,6 +129,8 @@ Use academic-workflow-orchestrator for a revise-and-resubmit project. Identify r
 ## Attribution
 
 This project is original. Public repositories may be inspected for structural inspiration, such as folder organization, skill indexing, and modular resource layout. No third-party text, code, templates, examples, images, scripts, or README content is copied into this repository.
+
+`Yuan1z0825/nature-skills` was reviewed only as a local structural reference. Easy Research is not a fork, rebrand, redistribution, or derivative copy of that project. The public repository contains original files written for a broader academic research workflow scope.
 
 Local third-party references must stay under `_reference/`, which is ignored by git. See `docs/reference_audit.md` for the audit record.
 

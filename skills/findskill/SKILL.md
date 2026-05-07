@@ -1,6 +1,6 @@
 ---
 name: findskill
-description: Meta-skill for selecting the correct academic-ai-skills module based on user intent, missing information, workflow type, and routing uncertainty, producing a concise routing decision without fabricating unavailable file contents.
+description: Meta-skill for selecting the correct Easy Research module based on user intent, missing information, workflow type, and routing uncertainty, producing a concise routing decision without fabricating unavailable file contents.
 ---
 
 # findskill

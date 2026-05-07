@@ -1,6 +1,6 @@
 # Design Principles
 
-Academic AI Skills is built around practical structure, transparent uncertainty, and respect for scholarly judgment.
+Easy Research is built around practical structure, transparent uncertainty, and respect for scholarly judgment.
 
 ## Originality
 
