@@ -209,6 +209,9 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
+# Local third-party repositories used for structural reference only.
+_reference/
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
