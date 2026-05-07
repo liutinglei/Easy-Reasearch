@@ -6,19 +6,22 @@ Use this checklist before publishing a release or announcing the repository.
 
 - [ ] `_reference/` is ignored and absent from tracked files.
 - [ ] Examples contain only synthetic, public, or non-confidential material.
-- [ ] The README status table matches the actual skill state.
-- [ ] License and attribution notes are present.
+- [ ] README skill index matches `skills/*/SKILL.md`.
+- [ ] `LICENSE`, `CITATION.cff`, `CHANGELOG.md`, and `CONTRIBUTING.md` are present.
+- [ ] `docs/reference_audit.md` lists inspected third-party references.
 
 ## Skill Quality
 
+- [ ] Each skill has `SKILL.md` and `README.md`.
 - [ ] Each `SKILL.md` has valid YAML frontmatter.
-- [ ] Trigger descriptions mention concrete use cases.
-- [ ] Instructions avoid copying third-party skill content.
-- [ ] Integrity rules prohibit fabricated comments, references, data, line numbers, and manuscript changes.
+- [ ] Each frontmatter `name` matches the folder name.
+- [ ] Trigger descriptions mention concrete use cases and expected outputs.
+- [ ] Integrity rules prohibit fabricated comments, references, data, line numbers, page numbers, and manuscript changes.
 - [ ] Templates are usable without requiring private manuscript material.
 
 ## Validation
 
-- [ ] Run `python -m unittest discover -s tests`.
-- [ ] Run the comment parser on `examples/reviewer-response-demo/sample_comments.txt`.
-- [ ] Run skill validation on `skills/reviewer-response`.
+- [ ] Run `python scripts/check_frontmatter.py`.
+- [ ] Run `python scripts/validate_skill_structure.py`.
+- [ ] Run `pytest tests/`.
+- [ ] Run `python scripts/build_skill_index.py --check`.

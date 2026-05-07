@@ -1,25 +1,30 @@
 # Design Principles
 
-Academic AI skills in this repository should be practical, auditable, and conservative.
+Academic AI Skills is built around practical structure, transparent uncertainty, and respect for scholarly judgment.
+
+## Originality
+
+- Write all public project content from scratch.
+- Use third-party repositories only for structural inspiration unless a future contribution explicitly handles license compatibility and attribution.
+- Keep local reference repositories under `_reference/` and out of git.
+- Document inspected public sources in `docs/reference_audit.md`.
 
 ## Skill Design
 
-- Put trigger-critical context in the `description` frontmatter.
-- Keep `SKILL.md` focused on reusable workflow instructions.
-- Put repeatable document structures in `templates/`.
-- Put deterministic parsing or checking logic in `scripts/`.
-- Avoid unnecessary dependencies in early versions.
+- Put trigger-critical context in each `description` frontmatter field.
+- Keep `SKILL.md` focused on the essential workflow.
+- Move detailed guidance into `references/`.
+- Put reusable document shapes in `templates/`.
+- Keep examples synthetic, short, and safe to publish.
+- Prefer deterministic scripts for validation and indexing.
 
 ## Academic Integrity
 
-- Do not fabricate references, data, reviewer comments, journal rules, line numbers, or manuscript changes.
-- Preserve confidential manuscript material outside examples and tests.
-- Mark uncertain claims as requiring author verification.
-- Prefer precise, limited claims over broad assurances.
+- Do not fabricate references, data, reviewer comments, journal rules, line numbers, page numbers, ethics details, or manuscript changes.
+- Preserve confidential manuscripts and private peer-review material outside the repository.
+- Mark uncertain or unverifiable claims as `[Author to verify]`.
+- Avoid publication guarantees, exaggerated quality claims, and journal-specific assertions that are not verified.
 
-## Release Quality
+## Human Verification
 
-- Each skill should include a usable template or script when it improves repeatability.
-- Scripts should have minimal tests.
-- Examples must be synthetic or public-domain-safe.
-- Reference projects may inform structure, but not provide copied content.
+Skills should identify where a human author, supervisor, statistician, ethics officer, editor, or reviewer must verify the output. A workflow is not complete until its verification checkpoints are resolved.

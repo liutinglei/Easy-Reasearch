@@ -12,5 +12,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Install test runner
+        run: python -m pip install --upgrade pytest
+      - name: Validate frontmatter
+        run: python scripts/check_frontmatter.py
+      - name: Validate skill structure
+        run: python scripts/validate_skill_structure.py
+      - name: Check README skill index
+        run: python scripts/build_skill_index.py --check
       - name: Run tests
-        run: python -m unittest discover -s tests
+        run: pytest tests/
